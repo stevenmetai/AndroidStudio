@@ -6,6 +6,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
+import android.widget.Toast;
 
 public class MainActivity extends ActionBarActivity {
 
@@ -18,7 +19,7 @@ public class MainActivity extends ActionBarActivity {
         {
             public void onClick(View v)
             {
-                
+                Toast.makeText(getApplicationContext(), "Hello man", Toast.LENGTH_LONG).show();
             }
 
         });
